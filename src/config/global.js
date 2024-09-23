@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Ruta de la biodiversidad: Camino a la COP16',
+    descripcionCurso:
+      'La COP16, centrada en la biodiversidad, reunirá a 196 países en Colombia para abordar delitos ambientales, gestión territorial y transformación productiva. Se destacarán compromisos, el Marco Mundial de Biodiversidad, y la importancia de la tecnología e innovación. Colombia asumirá un rol clave en la protección ambiental, promoviendo acciones locales, ciudadanas y globales para mitigar la crisis climática.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
       },
     ],
   },
@@ -31,28 +36,39 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Qué es la COP de Biodiversidad?',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La biodiversidad y sus niveles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Retos y oportunidades en Colombia',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Reto 1. Reducir las amenazas a la biodiversidad',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Reto 2. Satisfacer las necesidades de las personas',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Reto 3. Herramientas y soluciones para la implementación y la integridad',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +118,138 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '¿Qué es la COP de Biodiversidad?',
+      referencia: 'COP16. (2024). Paz con la naturaleza. ',
+      tipo: 'Documento ',
+      link:
+        'https://acmineria.com.co/wp-content/uploads/2024/05/COP16-Paz-con-la-naturaleza-1.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '¿Qué es la COP de Biodiversidad?',
+      referencia:
+        'Foro Nacional Ambiental. (2024). FORO 1 | Biodiversidad y la COP 16: origen, evolución del concepto ¿Qué se espera de la COP16?.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=9iLS78WX36A&ab_channel=ForoNacionalAmbiental',
+    },
+    {
+      tema: 'COP16',
+      referencia:
+        'WWF. (2024). Siete términos clave que te permitirán entender mejor la COP16.',
+      tipo: 'Artículo web',
+      link:
+        'https://www.wwf.org.co/?389912/que-es-la-cop16-biodiversidad-siglas-terminos',
+    },
+    {
+      tema: 'Biodiversidad',
+      referencia: 'UNESCO. (2017). Kit pedagógico sobre biodiversidad. ',
+      tipo: 'Libro ',
+      link:
+        'https://www.google.com.br/books/edition/Kit_pedag%C3%B3gico_sobre_biodiversidad/fJMnDwAAQBAJ?hl=es&gbpv=1&dq=COP+16+biodiversidad&printsec=frontcover',
+    },
+    {
+      tema: 'Retos y oportunidades en Colombia',
+      referencia:
+        'UNDP. (2024). COP 16, oportunidad única para que Colombia avance hacia la construcción de la Paz con la Naturaleza. ',
+      tipo: 'Artículo web',
+      link:
+        'https://www.undp.org/es/colombia/noticias/cop-16-oportunidad-unica-colombia-avance-construccion-paz-naturaleza',
+    },
+    {
+      tema: 'Retos y oportunidades en Colombia',
+      referencia:
+        'WWF. (2024). ABC DEL MARCO GLOBAL DE BIODIVERSIDAD Kunming-Montreal: Agenda global, retos y oportunidades en Colombia. ',
+      tipo: 'Documento',
+      link:
+        'https://wwflac.awsassets.panda.org/downloads/abc-del-marco-global-de-biodiversidad-kunming-montreal-cop16.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Acción ciudadana',
+      significado:
+        'participación activa de individuos y comunidades en la protección y conservación de los recursos naturales.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Biodiversidad',
+      significado:
+        'conjunto de todos los seres vivos que forman parte de los distintos ecosistemas en el planeta, incluyendo su variabilidad genética y relaciones.',
+    },
+    {
+      termino: 'Conservación',
+      significado:
+        'acciones dirigidas a mantener y restaurar la biodiversidad, los ecosistemas y los recursos naturales.',
+    },
+    {
+      termino: 'Desarrollo sostenible',
+      significado:
+        'modelo de desarrollo que satisface las necesidades presentes sin comprometer las futuras generaciones.',
+    },
+    {
+      termino: 'Ecosistemas',
+      significado:
+        'unidades compuestas por organismos vivos que interactúan entre sí y con su entorno no vivo (suelo, agua, aire).',
+    },
+    {
+      termino: 'Innovación tecnológica',
+      significado:
+        'aplicación de nuevas tecnologías para resolver problemas relacionados con la conservación de la biodiversidad.',
+    },
+    {
+      termino: 'Mitigación',
+      significado:
+        'medidas para reducir o controlar los impactos adversos de las actividades humanas en el medio ambiente.',
+    },
+    {
+      termino: 'Recursos genéticos',
+      significado:
+        'material hereditario presente en los organismos que tiene un valor actual o potencial para la humanidad.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'capacidad de mantener un equilibrio entre las necesidades humanas y los recursos naturales a largo plazo.',
+    },
+    {
+      termino: 'Transformación productiva',
+      significado:
+        'producción económica que integra la conservación de los recursos naturales y la biodiversidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'COP16. (2024). ABC COP16. ',
+      link:
+        'https://www.cop16colombia.com/es/wp-content/uploads/2024/08/ABC_COP16_AGO.pdf',
+    },
+    {
+      referencia:
+        'COP16. (2024). Cómo se toman las decisiones en la COP de Biodiversidad.',
+      link:
+        'https://www.cop16colombia.com/es/wp-content/uploads/2024/07/Como-se-toman-las-decisiones-en-la-COP-de-Biodiversidad.pdf ',
+    },
+    {
+      referencia:
+        'COP16. (2024). Los regalos que nos da la naturaleza para vivir.',
+      link:
+        'https://www.cop16colombia.com/es/wp-content/uploads/2024/07/Los-regalos-que-nos-da-la-naturaleza-para-vivir.pdf ',
+    },
+    {
+      referencia: 'COP16. (2024). Niveles de la biodiversidad.',
+      link:
+        'https://www.cop16colombia.com/es/wp-content/uploads/2024/07/Niveles-de-la-biodiversidad.pdf ',
+    },
+    {
+      referencia:
+        'COP16. (2024). Notas didácticas ensena a tus amigos y familia sobre COP16.',
+      link:
+        'https://www.cop16colombia.com/es/wp-content/uploads/2024/07/NOTAS_DIDACTICAS_ENSENA_A_TUS_AMIGOS_Y_FAMILIA_SOBRE_COP16.pdf ',
+    },
+    {
+      referencia:
+        'COP16. (2024). Retos y oportunidades en Colombia en el Marco Global de Biodiversidad Kumming-Montreal.',
+      link:
+        'https://www.cop16colombia.com/es/wp-content/uploads/2024/08/Retos-y-oportunidades-en-Colombia.pdf ',
     },
   ],
   creditos: [
@@ -150,8 +272,8 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +282,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
