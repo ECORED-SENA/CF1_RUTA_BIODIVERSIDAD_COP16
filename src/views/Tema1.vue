@@ -40,7 +40,7 @@
               .col-lg-12(data-aos="fade-left")     
                 figure
                   .video
-                    iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+                    iframe(width="560" height="315" src="https://www.youtube.com/embed/iwIHRRVD_l8?si=N5gRxlvv2od1CGbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
 
             .row.justify-content-start.mb-4
               .col-auto(data-aos="flip-down")
@@ -106,7 +106,7 @@
             .col-auto
               TarjetaAudioPersonalizada.color-primario.tarjeta-audio-p-1.mb-3(
                 texto="La aventura de la flor del Inírida en la COP16"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/Capitulo_1_2.mp3')"
                 )
 
     .row.justify-content-start.mb-4

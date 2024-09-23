@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Ruta de la biodiversidad: Camino a la COP16',
+    componenteFormativo: 'Introducción a la COP16 y la biodiversidad',
     descripcionCurso:
       'La COP16, centrada en la biodiversidad, reunirá a 196 países en Colombia para abordar delitos ambientales, gestión territorial y transformación productiva. Se destacarán compromisos, el Marco Mundial de Biodiversidad, y la importancia de la tecnología e innovación. Colombia asumirá un rol clave en la protección ambiental, promoviendo acciones locales, ciudadanas y globales para mitigar la crisis climática.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

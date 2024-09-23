@@ -1,1 +1,1 @@
-module.exports = 'Ruta de la biodiversidad: Camino a la COP16'
+module.exports = 'Introducción a la COP16 y la biodiversidad'

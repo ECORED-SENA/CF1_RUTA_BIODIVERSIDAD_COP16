@@ -27,8 +27,19 @@
                     .col.p-0.pt-md-4.pt-lg-0
                       p(data-aos="fade-down").mb-0 El MGB establece un plan de acción para el 2030, que incluye 23 metas diseñadas para alcanzar cuatro grandes objetivos en 2050. Dichas metas se organizan en tres retos principales, y promueven la participación activa, la buena gobernanza y el carácter público y colectivo de las decisiones relacionadas con la biodiversidad, adoptando un enfoque socioecológico. 
 
-                                          
-
+            .bgpod.p-4.borde-8.mb-4(data-aos="fade-down")
+              .row.align-items-center 
+                .col-lg-auto
+                  img.img-a.img-t(src="@/assets/curso/temas/icon_pod.png")
+                .col.p-0.pt-md-4
+                  p.fw-bold.mb-2.t2(style="font-size: 20px;") Pódcast
+                  p.mb-3.text-white Se extiende una cordial invitación a escuchar el podcast La aventura de la flor del Inírida en la COP16, acá se destaca la riqueza natural de Colombia y su papel en la protección de la biodiversidad en el marco de la COP16. A través de los personajes de Asusena y Don Campos, se explora cómo el país enfrenta desafíos globales como el cambio climático, la deforestación y la contaminación, todo con un enfoque poético y educativo.
+                  .row
+                    .col-auto
+                      TarjetaAudioPersonalizada.color-primario.tarjeta-audio-p-1.mb-3(
+                        texto="La aventura de la flor del Inírida en la COP16"
+                        :audio="require('@/assets/componentes/audios/Capitulo_4.mp3')"
+                        )
 
 </template>
 
