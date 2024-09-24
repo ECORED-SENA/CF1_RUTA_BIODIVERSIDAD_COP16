@@ -418,7 +418,7 @@
       .col.my-3.order-1 
         p(data-aos="fade-down").mb-0 La tecnología juega un papel crucial en la conservación de la biodiversidad. Herramientas como el monitoreo satelital, drones y análisis de datos permiten un seguimiento eficiente de los ecosistemas. En Colombia, proyectos como el monitoreo de la deforestación en la Amazonía y la bioprospección en el Chocó han destacado por su innovación.
       .col-lg-auto.my-3.order-lg-2            
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/40.png', alt='') 
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/40_1.png', alt='') 
 
     .row.justify-content-start.mb-4
       .col-auto(data-aos="flip-down")

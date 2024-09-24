@@ -206,7 +206,7 @@
                 span Revertir la pérdida de espacio urbano.
                                                    
           .col-lg-6
-            img.img-a.img-t(src='@/assets/curso/temas/80.png', alt='')    
+            img.img-a.img-t(src='@/assets/curso/temas/80_1.png', alt='')    
 
       .py-4.py-md-5(titulo="Desafíos" :icono="require('@/assets/curso/temas/72.svg')")
         .row.justify-content-center.px-4
@@ -221,7 +221,7 @@
                 span Incluir en los procesos de planificación urbana los estudios y normativas actuales sobre indicadores ambientales.
                                                     
           .col-lg-6
-            img.img-a.img-t(src='@/assets/curso/temas/81.png', alt='')              
+            img.img-a.img-t(src='@/assets/curso/temas/81_1.png', alt='')              
 
     Separador 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
