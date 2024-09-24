@@ -8,15 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/1.png'),
+        imagen: require('@/assets/curso/portada/1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/2.png'),
+        imagen: require('@/assets/curso/portada/2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/3.png'),
+        imagen: require('@/assets/curso/portada/3.svg'),
       },
     ],
   },
@@ -127,7 +127,7 @@ export default {
     {
       tema: '¿Qué es la COP de Biodiversidad?',
       referencia:
-        'Foro Nacional Ambiental. (2024). FORO 1 | Biodiversidad y la COP 16: origen, evolución del concepto ¿Qué se espera de la COP16?.',
+        'Foro Nacional Ambiental. (2024). FORO 1 | Biodiversidad y la COP 16: origen, evolución del concepto ¿Qué se espera de la COP16?',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=9iLS78WX36A&ab_channel=ForoNacionalAmbiental',
@@ -188,7 +188,7 @@ export default {
     {
       termino: 'Ecosistemas',
       significado:
-        'unidades compuestas por organismos vivos que interactúan entre sí y con su entorno no vivo (suelo, agua, aire).',
+        'unidades compuestas por organismos vivos que interactúan entre sí y con su entorno no vivo (suelo, agua y aire).',
     },
     {
       termino: 'Innovación tecnológica',
@@ -298,11 +298,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

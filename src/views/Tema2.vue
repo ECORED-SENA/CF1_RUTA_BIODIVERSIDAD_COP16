@@ -99,10 +99,10 @@
           img.img-a.img-t(src="@/assets/curso/temas/icon_pod.png")
         .col.p-0.pt-md-4
           p.fw-bold.mb-2.t2(style="font-size: 20px;") Pódcast
-          p.mb-3.text-white Se extiende una cordial invitación a escuchar el podcast La aventura de la flor del Inírida en la COP16, un viaje sonoro que explora el valor de la biodiversidad y su protección en el marco de la COP16. A través de los personajes de Asusena y Don Campos, se cuenta cómo cada ser vivo en la tierra cumple un rol fundamental en el equilibrio de los ecosistemas.
+          p.mb-3.text-white Se extiende una cordial invitación a escuchar el pódcast La aventura de la flor del Inírida en la COP16, un viaje sonoro que explora el valor de la biodiversidad y su protección en el marco de la COP16. A través de los personajes de Asusena y Don Campos, se cuenta cómo cada ser vivo en la tierra cumple un rol fundamental en el equilibrio de los ecosistemas.
           .row
             .col-auto
-              TarjetaAudioPersonalizada.color-primario.tarjeta-audio-p-1.mb-3(
+              TarjetaAudio.color-primario.tarjeta-audio-p-1.mb-3(
                 texto="La aventura de la flor del Inírida en la COP16"
                 :audio="require('@/assets/componentes/audios/Capitulo_3.mp3')"
                 )                      

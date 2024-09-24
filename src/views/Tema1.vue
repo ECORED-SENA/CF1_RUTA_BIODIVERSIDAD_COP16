@@ -34,7 +34,7 @@
                     p(data-aos="fade-down").mb-0 La COP se celebra cada dos años y reúne a más de 190 países miembros del convenio, así como a organizaciones intergubernamentales, organismos de las Naciones Unidas, sociedad civil y otros actores relevantes.
 
                 p(data-aos="fade-down") La edición 16 de la COP se llevará a cabo entre el 21 de octubre y el 1 de noviembre de 2024 en Colombia, con la asistencia de 196 países miembros.                                                              
-            p(data-aos="fade-down") Lo invitamos a revisar el siguiente video, donde se brinda una explicación detallada sobre la importancia de la COP16, sus objetivos clave, y los temas que serán tratados en este evento internacional enfocado en la protección de la biodiversidad y la sostenibilidad global.
+            p(data-aos="fade-down") Los extendemos una cordial invitación a visualizar el siguiente video, donde se brinda una explicación detallada sobre la importancia de la COP16, sus objetivos clave, y los temas que serán tratados en este evento internacional enfocado en la protección de la biodiversidad y la sostenibilidad global.
 
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-12(data-aos="fade-left")     
@@ -65,33 +65,33 @@
                   .tarjeta.bgw.bor.p-4
                     img.img-a.img-t.mb-2(src='@/assets/curso/temas/8.svg', alt='')
                     h5.text-center #[mark.bgtg.px-2 01]
-                    p.mb-0 Paz con la naturaleza Conflicto y biodiversidad 
-
+                    h5 Paz con la naturaleza 
+                    p.mb-0 Conflicto y biodiversidad. 
                   .tarjeta.bg4.bor.p-4
                     img.img-a.img-t.mb-2(src='@/assets/curso/temas/9.svg', alt='')
                     h5.text-center #[mark.bgtg.px-2 02]
-                    p COP de la gente
+                    h5 COP de la gente
 
                     p.mb-0 #[b Amplia movilización social], Pre-Cop Indígena y de Comunidades Locales (afrodescendientes, campesinos, etc.). 
                     
                   .tarjeta.bgw.bor.p-4
                     img.img-a.img-t.mb-2(src='@/assets/curso/temas/10.svg', alt='')
                     h5.text-center #[mark.bgtg.px-2 03]
-                    p Naturaleza y cambio climático
+                    h5 Naturaleza y cambio climático
 
                     p.mb-0 #[b Biodiversidad pilar de la acción climática], panel SG-ONU para los minerales de la transición energética. 
 
                   .tarjeta.bg4.bor.p-4
                     img.img-a.img-t.mb-2(src='@/assets/curso/temas/11.svg', alt='')
                     h5.text-center #[mark.bgtg.px-2 04]
-                    p Convergencia regional
+                    h5 Convergencia regional
 
                     p.mb-0 Amazonía, CMAR, Caribe y sur global. 
 
                   .tarjeta.bgw.bor.p-4
                     img.img-a.img-t.mb-2(src='@/assets/curso/temas/12.svg', alt='')
                     h5.text-center #[mark.bgtg.px-2 05]
-                    p Financiamiento para la implementación
+                    h5 Financiamiento para la implementación
 
                     p.mb-0 Mecanismos novedosos.
 
@@ -101,10 +101,10 @@
           img.img-a.img-t(src="@/assets/curso/temas/icon_pod.png")
         .col.p-0.pt-md-4
           p.fw-bold.mb-2.t2(style="font-size: 20px;") Pódcast
-          p.mb-3.text-white Se invita a escuchar el podcast La aventura de la flor del Inírida en la COP16, un relato que explora la importancia de la biodiversidad y los esfuerzos globales para proteger el entorno natural. A través de las voces de Asusena y Don Campos, se presenta la historia de cómo la flor del Inírida asume una misión especial para enseñar a los más jóvenes sobre la COP16 y la relevancia de preservar la vida en todas sus formas.
+          p.mb-3.text-white Se invita a escuchar el pódcast La aventura de la flor del Inírida en la COP16, un relato que explora la importancia de la biodiversidad y los esfuerzos globales para proteger el entorno natural. A través de las voces de Asusena y Don Campos, se presenta la historia de cómo la flor del Inírida asume una misión especial para enseñar a los más jóvenes sobre la COP16 y la relevancia de preservar la vida en todas sus formas.
           .row
             .col-auto
-              TarjetaAudioPersonalizada.color-primario.tarjeta-audio-p-1.mb-3(
+              TarjetaAudio.color-primario.tarjeta-audio-p-1.mb-3(
                 texto="La aventura de la flor del Inírida en la COP16"
                 :audio="require('@/assets/componentes/audios/Capitulo_1_2.mp3')"
                 )
@@ -269,7 +269,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Ejes temáticos de la COP16
+            h3.mb-0 Órganos de apoyo
 
     p(data-aos="fade-down") La COP cuenta con dos órganos subsidiarios que facilitan la toma de decisiones:   
 
@@ -350,13 +350,13 @@
             .col-lg-auto        
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/76.png', alt='')                 
             .col.p-0.pt-md-4.pt-lg-0
-              p(data-aos="fade-down").mb-0 Restablecer integridad, conectividad y resiliencia ecosistemas y biodiversidad, se detiene la extinción de especies y se mantiene la diversidad genética.   
+              p(data-aos="fade-down").mb-0 Restablecer integridad, conectividad y resiliencia, ecosistemas y biodiversidad, se detiene la extinción de especies y se mantiene la diversidad genética.   
 
           .row.justify-content-center.align-items-center.bg15.p-3(data-aos="fade-down")
             .col-lg-auto        
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/77.png', alt='')                 
             .col.p-0.pt-md-4.pt-lg-0
-              p(data-aos="fade-down").mb-0 La biodiversidad se utiliza y gestiona de manera sostenible y las contribuciones de la naturaleza a las personas se valoran, se mantienen y se mejoran restableciendo funciones y servicios ecosistémicos. 
+              p(data-aos="fade-down").mb-0 La biodiversidad se utiliza y gestiona de manera sostenible y las contribuciones de la naturaleza a las personas se valoran, se mantienen y se mejoran, restableciendo funciones y servicios ecosistémicos. 
 
           .row.justify-content-center.align-items-center.bg16.p-3(data-aos="fade-down")
             .col-lg-auto        
@@ -385,7 +385,8 @@
         img.img-a.img-t.brad1(data-aos="zoom-in")(src='@/assets/curso/temas/38.png', alt='')     
       .col-lg-7.my-3 
         .bg10.p-4.j1.h-100.brad1(data-aos="fade-left")
-          p(data-aos="fade-down").mb-0 El Marco Mundial de Biodiversidad de Kunming-Montreal, establece una visión transformadora para guiar y apoyar a los países en materia de biodiversidad mediante 4 objetivos y 23 metas.
+          p(data-aos="fade-down").mb-0 La protección de estos recursos es crucial para enfrentar la crisis climática y fomentar la innovación en sectores como la agricultura y la medicina.
+
 
     .row.justify-content-start.mb-4
       .col-auto(data-aos="flip-down")
@@ -394,7 +395,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Recursos genéticos y su importancia
+            h3.mb-0 Paz con la naturaleza: un enfoque clave de la COP16
 
     p(data-aos="fade-down") En la COP16, Colombia promoverá el concepto de #[b.t1 "Paz con la Naturaleza"], resaltando la interdependencia entre la paz y la conservación ambiental. La protección de la biodiversidad no solo es una herramienta para mitigar el cambio climático, sino también un camino para resolver conflictos y promover la estabilidad.
     .row.justify-content-center.mb-4
@@ -428,7 +429,6 @@
           .list__txt.bgicon.p-0.px-4
             h3.mb-0 Acciones ciudadanas
 
-    p(data-aos="fade-down") Los recursos genéticos son la información genética contenida en plantas, animales y microorganismos. Estos recursos son valiosos porque permiten desarrollar nuevas variedades de cultivos más resistentes, medicamentos más efectivos y adaptaciones ante el cambio climático.
     .row.justify-content-center.mb-4
       .col-lg-5.my-3        
         img.img-a.img-t.brad1(data-aos="zoom-in")(src='@/assets/curso/temas/41.png', alt='')     
@@ -646,8 +646,8 @@
         img.img-a.img-t.brad1(data-aos="zoom-in")(src='@/assets/curso/temas/48.png', alt='')       
       .col-lg-7.my-3 
         .bg2.p-4.j1.h-100.brad1(data-aos="fade-left")
-          p(data-aos="fade-down") Con una planificación integral y objetivos claros para 2030, la COP16 representa un esfuerzo conjunto para asegurar un futuro más sostenible y respetuoso con la naturaleza.
-          p(data-aos="fade-down").mb-0 la crisis climática y la pérdida de biodiversidad. Colombia pone la naturaleza en el centro de este esfuerzo como pilar para la paz.
+          p(data-aos="fade-down").mb-0 Con una planificación integral y objetivos claros para 2030, la COP16 representa un esfuerzo conjunto para asegurar un futuro más sostenible y respetuoso con la naturaleza.
+
 </template>
 
 <script>

@@ -6,6 +6,11 @@
     height: auto !important 
     top: 45%
     left: -15%
+    @media screen and (max-width: 1400px)
+      left: 0%
+      top: 60%
+
+
     
   &-2
     animation: float4 2.8s ease-in-out infinite alternate
@@ -107,6 +112,9 @@ figcaption
     margin: auto
     width: auto
     height: auto   
+
+.accesibilidad
+  z-index: 10000 !important    
 
 .w
   width: 99.9% !important   
@@ -457,3 +465,4 @@ figcaption
 
 .tarjeta-audio.color-secundario .tarjeta-audio__texto
   color: $color-sistema-texto    
+  

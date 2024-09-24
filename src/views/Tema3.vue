@@ -33,10 +33,10 @@
                   img.img-a.img-t(src="@/assets/curso/temas/icon_pod.png")
                 .col.p-0.pt-md-4
                   p.fw-bold.mb-2.t2(style="font-size: 20px;") Pódcast
-                  p.mb-3.text-white Se extiende una cordial invitación a escuchar el podcast La aventura de la flor del Inírida en la COP16, acá se destaca la riqueza natural de Colombia y su papel en la protección de la biodiversidad en el marco de la COP16. A través de los personajes de Asusena y Don Campos, se explora cómo el país enfrenta desafíos globales como el cambio climático, la deforestación y la contaminación, todo con un enfoque poético y educativo.
+                  p.mb-3.text-white Se extiende una cordial invitación a escuchar el pódcast La aventura de la flor del Inírida en la COP16, acá se destaca la riqueza natural de Colombia y su papel en la protección de la biodiversidad en el marco de la COP16. A través de los personajes de Asusena y Don Campos, se explora cómo el país enfrenta desafíos globales como el cambio climático, la deforestación y la contaminación, todo con un enfoque poético y educativo.
                   .row
                     .col-auto
-                      TarjetaAudioPersonalizada.color-primario.tarjeta-audio-p-1.mb-3(
+                      TarjetaAudio.color-primario.tarjeta-audio-p-1.mb-3(
                         texto="La aventura de la flor del Inírida en la COP16"
                         :audio="require('@/assets/componentes/audios/Capitulo_4.mp3')"
                         )   
@@ -177,6 +177,51 @@
                 span Disminuir la informalidad e ilegalidad en la producción.                    
           .col-lg-5.my-3
             img.img-a.img-t(src='@/assets/curso/temas/83.png', alt='')  
+
+    .row.justify-content-start.mb-4
+      .col-auto(data-aos="flip-down")
+        .list
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/icon.svg', alt='')
+          .list__txt.bgicon.p-0.px-4
+            h3.mb-0 Meta 12
+
+    p(data-aos="fade-down") Aumentar los espacios verdes y mejorar la planificación urbana para el bienestar humano y la biodiversidad.    
+
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
+      .py-4.py-md-5(titulo="Oportunidades" :icono="require('@/assets/curso/temas/71.svg')")
+        .row.justify-content-center.px-4
+          .col-lg-5.mb-4.mb-md-0
+            h4 Oportunidades 
+            ul.lista-ul.fa-ul          
+              li 
+                i.fas.fa-feather-alt.t5
+                span Avanzar en la integración de la biodiversidad en algunos instrumentos de planificación.
+              li 
+                i.fas.fa-feather-alt.t5
+                span Fortalecer iniciativas de participación ciudadana en proyectos de planificación urbana.
+              li 
+                i.fas.fa-feather-alt.t5
+                span Revertir la pérdida de espacio urbano.
+                                                   
+          .col-lg-6
+            img.img-a.img-t(src='@/assets/curso/temas/80.png', alt='')    
+
+      .py-4.py-md-5(titulo="Desafíos" :icono="require('@/assets/curso/temas/72.svg')")
+        .row.justify-content-center.px-4
+          .col-lg-5.mb-4.mb-md-0
+            h4 Desafíos 
+            ul.lista-ul.fa-ul          
+              li 
+                i.fas.fa-feather-alt.t5
+                span Llevar a cabo la gestión integral del manejo de las Otras Medidas Efectivas de Conservación Basadas en Áreas (OMEC) municipales.
+              li 
+                i.fas.fa-feather-alt.t5
+                span Incluir en los procesos de planificación urbana los estudios y normativas actuales sobre indicadores ambientales.
+                                                    
+          .col-lg-6
+            img.img-a.img-t(src='@/assets/curso/temas/81.png', alt='')              
 
     Separador 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
