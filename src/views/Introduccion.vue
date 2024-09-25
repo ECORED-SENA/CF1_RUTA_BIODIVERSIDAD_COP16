@@ -15,7 +15,7 @@
           .col-lg-12
             .row.justify-content-center.align-items-center.mb-4
               .col.my-3.order-1 
-                p(data-aos="fade-down").mb-0 Colombia, reconocida por su riqueza natural, tendrá la oportunidad de destacar sus esfuerzos en la protección de ecosistemas y liderar importantes discusiones. Los ejes temáticos de la COP16 incluyen la lucha contra los delitos ambientales, la gestión intersectorial de territorios y la transformación productiva basada en la naturaleza, temas fundamentales en la agenda global de sostenibilidad.                       
+                p(data-aos="fade-down").mb-0 La Conferencia de las Partes (COP) sobre biodiversidad es el evento más importante a nivel global para discutir y tomar decisiones sobre la conservación de la diversidad biológica. En su edición número 16, que se llevará a cabo en Colombia, se reunirán 196 países con el fin de establecer compromisos y acciones conjuntas para mitigar la crisis ambiental actual.                      
               .col-lg-auto.my-3.order-lg-2            
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/88.png', alt='')      
 
