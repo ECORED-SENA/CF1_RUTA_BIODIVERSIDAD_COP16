@@ -105,7 +105,7 @@
           .row
             .col-auto
               TarjetaAudio.color-primario.tarjeta-audio-p-1.mb-3(
-                texto="La aventura de la flor del Inírida en la COP16"
+                texto="La Flor del Inírida y su misión especial"
                 :audio="require('@/assets/componentes/audios/Capitulo_1_2.mp3')"
                 )
 
