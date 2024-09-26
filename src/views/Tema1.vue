@@ -34,7 +34,7 @@
                     p(data-aos="fade-down").mb-0 La COP se celebra cada dos años y reúne a más de 190 países miembros del convenio, así como a organizaciones intergubernamentales, organismos de las Naciones Unidas, sociedad civil y otros actores relevantes.
 
                 p(data-aos="fade-down") La edición 16 de la COP se llevará a cabo entre el 21 de octubre y el 1 de noviembre de 2024 en Colombia, con la asistencia de 196 países miembros.                                                              
-            p(data-aos="fade-down") Los extendemos una cordial invitación a visualizar el siguiente video, donde se brinda una explicación detallada sobre la importancia de la COP16, sus objetivos clave, y los temas que serán tratados en este evento internacional enfocado en la protección de la biodiversidad y la sostenibilidad global.
+            p(data-aos="fade-down") Les extendemos una cordial invitación a visualizar el siguiente video, donde se brinda una explicación detallada sobre la importancia de la COP16, sus objetivos clave, y los temas que serán tratados en este evento internacional enfocado en la protección de la biodiversidad y la sostenibilidad global.
 
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-12(data-aos="fade-left")     
@@ -100,8 +100,8 @@
         .col-lg-auto
           img.img-a.img-t(src="@/assets/curso/temas/icon_pod.png")
         .col.p-0.pt-md-4
-          p.fw-bold.mb-2.t2(style="font-size: 20px;") Pódcast
-          p.mb-3.text-white Se invita a escuchar el pódcast La aventura de la flor del Inírida en la COP16, un relato que explora la importancia de la biodiversidad y los esfuerzos globales para proteger el entorno natural. A través de las voces de Asusena y Don Campos, se presenta la historia de cómo la flor del Inírida asume una misión especial para enseñar a los más jóvenes sobre la COP16 y la relevancia de preservar la vida en todas sus formas.
+          p.fw-bold.mb-2.t2(style="font-size: 20px;") #[i Pódcast]
+          p.mb-3.text-white Se invita a escuchar el #[i pódcast] La Flor del Inírida y su misión especial, un relato que explora la importancia de la biodiversidad y los esfuerzos globales para proteger el entorno natural. A través de las voces de Asusena y Don Campos, se presenta la historia de cómo la flor del Inírida asume una misión especial para enseñar a los más jóvenes sobre la COP16 y la relevancia de preservar la vida en todas sus formas.
           .row
             .col-auto
               TarjetaAudio.color-primario.tarjeta-audio-p-1.mb-3(
@@ -185,7 +185,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Ejes temáticos de la COP16
+            h3.mb-0 Participantes en la COP
 
     p(data-aos="fade-down") La COP incluye a los 196 países que han ratificado el CDB, quienes tienen derecho a votar y participar plenamente. Además, participan otros actores relevantes que, aunque no tienen derecho a voto, #[b.t1 cumplen un rol de observación y asesoría, tales como:]  
 

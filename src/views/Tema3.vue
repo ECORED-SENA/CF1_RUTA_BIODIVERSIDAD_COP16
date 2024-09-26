@@ -32,8 +32,8 @@
                 .col-lg-auto
                   img.img-a.img-t(src="@/assets/curso/temas/icon_pod.png")
                 .col.p-0.pt-md-4
-                  p.fw-bold.mb-2.t2(style="font-size: 20px;") Pódcast
-                  p.mb-3.text-white Se extiende una cordial invitación a escuchar el pódcast La aventura de la flor del Inírida en la COP16, acá se destaca la riqueza natural de Colombia y su papel en la protección de la biodiversidad en el marco de la COP16. A través de los personajes de Asusena y Don Campos, se explora cómo el país enfrenta desafíos globales como el cambio climático, la deforestación y la contaminación, todo con un enfoque poético y educativo.
+                  p.fw-bold.mb-2.t2(style="font-size: 20px;") #[i Pódcast]
+                  p.mb-3.text-white Se extiende una cordial invitación a escuchar el #[i pódcast] La COP16 es muy importante para Colombia, acá se destaca la riqueza natural de Colombia y su papel en la protección de la biodiversidad en el marco de la COP16. A través de los personajes de Asusena y Don Campos, se explora cómo el país enfrenta desafíos globales como el cambio climático, la deforestación y la contaminación, todo con un enfoque poético y educativo.
                   .row
                     .col-auto
                       TarjetaAudio.color-primario.tarjeta-audio-p-1.mb-3(
